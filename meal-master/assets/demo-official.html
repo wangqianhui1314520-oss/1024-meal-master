@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>干饭指挥官 · 6人¥150桌单</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+         background: #fff8ec; color: #2b2118; padding: 32px 20px; }
+  .wrap { max-width: 880px; margin: 0 auto; }
+  .hero { background: linear-gradient(135deg, #ffcf3f, #ff9d2e);
+           border-radius: 20px; padding: 28px 32px; color: #3a2503;
+           box-shadow: 0 8px 24px rgba(255,157,46,.25); }
+  .hero h1 { font-size: 30px; letter-spacing: 1px; }
+  .hero .req { margin-top: 10px; font-size: 15px; opacity: .85; }
+  .total { margin-top: 16px; display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  .total .big { font-size: 44px; font-weight: 800; }
+  .total .sub { font-size: 14px; }
+  .badge { display: inline-block; margin-top: 12px; background: rgba(255,255,255,.65);
+            border-radius: 999px; padding: 4px 14px; font-size: 13px; font-weight: 600; }
+  .bar { height: 10px; background: rgba(255,255,255,.55); border-radius: 999px;
+          margin-top: 14px; overflow: hidden; }
+  .bar > div { height: 100%; width: 99.6%;
+                background: #d2691e; border-radius: 999px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 22px;
+           background: #fff; border-radius: 14px; overflow: hidden;
+           box-shadow: 0 4px 16px rgba(120,80,20,.08); }
+  th, td { padding: 10px 14px; font-size: 14px; text-align: left;
+            border-bottom: 1px solid #f3e6cf; vertical-align: top; }
+  th { background: #ffefd0; font-size: 13px; color: #7a5a1e; }
+  tr.grp td { background: #fff3d6; font-weight: 700; color: #8a5a00; }
+  td.c { text-align: center; white-space: nowrap; }
+  td.reason { color: #6d5b3f; font-size: 13px; }
+  .foot { margin-top: 18px; font-size: 13px; color: #8a7a5c; }
+  .foot ul { margin: 6px 0 0 18px; }
+  .src { margin-top: 14px; font-size: 12px; color: #a3926e; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>🍔 干饭指挥官 · 今日桌单</h1>
+    <div class="req">6 人 · 预算 ¥150 · 不吃辣 2 人 · 素食 0 人 · 人均 ¥25</div>
+    <div class="total"><span class="big">¥149.4</span>
+      <span class="sub">/ ¥150（结余 ¥0.6 · 利用率 99.6%）</span></div>
+    <div class="badge">方案可行 · 不超预算</div>
+    <div class="bar"><div></div></div>
+  </div>
+  <table>
+    <thead><tr><th>餐品</th><th style="text-align:center">数量</th>
+      <th style="text-align:center">小计</th><th>选择依据</th></tr></thead>
+    <tbody><tr class="grp"><td colspan="4">无辣不欢 · 4 人</td></tr><tr><td>麦辣鸡腿堡三件套（券后）</td><td class='c'>x4</td><td class='c'>¥91.6</td><td class='reason'>券后活动价 ¥22.9（原价 ¥39.5），全菜单最低的「麦辣鸡腿堡 + 中薯条 + 中可口可乐」组合，饱腹度 3 级</td></tr><tr class="grp"><td colspan="4">不吃辣 · 2 人</td></tr><tr><td>1+1 随心配（麦香鸡堡+中可口可乐）</td><td class='c'>x2</td><td class='c'>¥25.8</td><td class='reason'>预算压缩切换：原选 麦香鸡套餐 ¥33.5/人 会击穿全桌预算，改选满足约束的最低合格组合（有堡有饮料），把预算让给小食</td></tr><tr><td>中薯条</td><td class='c'>x2</td><td class='c'>¥26</td><td class='reason'>该组组合不含小食，补 中薯条 让每人都有小食</td></tr><tr class="grp"><td colspan="4">全桌共享</td></tr><tr><td>圆筒冰淇淋</td><td class='c'>x1</td><td class='c'>¥6</td><td class='reason'>结余 ¥6.6，加 圆筒冰淇淋 收尾</td></tr></tbody>
+  </table>
+  <div class="foot">
+    <b>引擎决策记录：</b>
+    <ul><li>「不吃辣」组主食由 麦香鸡套餐 降级为 1+1 随心配（麦香鸡堡+中可口可乐），为保全桌预算让位 ¥41.2</li></ul>
+    <ul></ul>
+  </div>
+  <div class="src">菜单来源：麦当劳中国公开菜单与活动价本地快照（2026-10-25），价格为快照值，正式下单以小程序/MCP 实时价为准。</div>
+</div>
+</body>
+</html>

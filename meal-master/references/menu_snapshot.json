@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "name": "麦当劳中国菜单快照（干饭指挥官用）",
+    "snapshot_date": "2026-10-25",
+    "currency": "CNY",
+    "source": "麦当劳中国小程序/官网公开菜单与活动价整理",
+    "note": "本地快照仅用于离线搭配演算；正式下单请以麦当劳 MCP 或小程序实时价格为准。活动价为快照当日可见的券后价。",
+    "categories": {
+      "combo": "套餐/组合（含主食+小食+饮品）",
+      "single": "主食单品",
+      "snack": "小食",
+      "drink": "饮品",
+      "dessert": "甜品",
+      "share": "分享装"
+    }
+  },
+  "items": [
+    {
+      "id": "combo-mala-3pc",
+      "name": "麦辣鸡腿堡三件套（券后）",
+      "price": 22.9,
+      "original_price": 39.5,
+      "category": "combo",
+      "spicy": true,
+      "vegetarian": false,
+      "satiety": 3,
+      "includes": ["麦辣鸡腿堡", "中薯条", "中可口可乐"],
+      "tags": ["活动价", "性价比之王"],
+      "note": "22.9 元三件套为赛场当日全场通用活动价"
+    },
+    {
+      "id": "combo-mala-set",
+      "name": "麦辣鸡腿堡套餐",
+      "price": 39.5,
+      "category": "combo",
+      "spicy": true,
+      "vegetarian": false,
+      "satiety": 3,
+      "includes": ["麦辣鸡腿堡", "中薯条", "中可口可乐"],
+      "tags": ["经典"]
+    },
+    {
+      "id": "combo-banshao",
+      "name": "板烧鸡腿堡套餐",
+      "price": 41.0,
+      "category": "combo",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 3,
+      "includes": ["板烧鸡腿堡", "中薯条", "中可口可乐"],
+      "tags": ["不辣招牌"]
+    },
+    {
+      "id": "combo-bigmac",
+      "name": "巨无霸套餐",
+      "price": 44.0,
+      "category": "combo",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 3,
+      "includes": ["巨无霸", "中薯条", "中可口可乐"],
+      "tags": ["经典"]
+    },
+    {
+      "id": "combo-double-cheese",
+      "name": "双层吉士堡套餐",
+      "price": 40.5,
+      "category": "combo",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 3,
+      "includes": ["双层吉士堡", "中薯条", "中可口可乐"],
+      "tags": ["牛肉"]
+    },
+    {
+      "id": "combo-fish",
+      "name": "麦香鱼套餐",
+      "price": 39.0,
+      "category": "combo",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 3,
+      "includes": ["麦香鱼堡", "中薯条", "中可口可乐"],
+      "tags": ["海鲜", "不辣"]
+    },
+    {
+      "id": "combo-mcchicken",
+      "name": "麦香鸡套餐",
+      "price": 33.5,
+      "category": "combo",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 3,
+      "includes": ["麦香鸡堡", "中薯条", "中可口可乐"],
+      "tags": ["不辣", "低价"]
+    },
+    {
+      "id": "p11-mcchicken-cola",
+      "name": "1+1 随心配（麦香鸡堡+中可口可乐）",
+      "price": 12.9,
+      "category": "combo",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 2,
+      "includes": ["麦香鸡堡", "中可口可乐"],
+      "tags": ["红区低价", "不辣"]
+    },
+    {
+      "id": "p11-mcchicken-fries",
+      "name": "1+1 随心配（麦香鸡堡+中薯条）",
+      "price": 12.9,
+      "category": "combo",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 2,
+      "includes": ["麦香鸡堡", "中薯条"],
+      "tags": ["红区低价", "不辣"]
+    },
+    {
+      "id": "p11-doublecheese-cola",
+      "name": "1+1 随心配（双层吉士堡+中可口可乐）",
+      "price": 13.9,
+      "category": "combo",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 2,
+      "includes": ["双层吉士堡", "中可口可乐"],
+      "tags": ["红区低价", "不辣"]
+    },
+    {
+      "id": "p11-doublecheese-fries",
+      "name": "1+1 随心配（双层吉士堡+中薯条）",
+      "price": 13.9,
+      "category": "combo",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 2,
+      "includes": ["双层吉士堡", "中薯条"],
+      "tags": ["红区低价", "不辣"]
+    },
+    {
+      "id": "combo-veggie",
+      "name": "素食饱腹配（香芋派×2+中薯条+中可口可乐）",
+      "price": 41.0,
+      "category": "combo",
+      "spicy": false,
+      "vegetarian": true,
+      "satiety": 2,
+      "includes": ["香芋派×2", "中薯条", "中可口可乐"],
+      "tags": ["素食", "拼配"],
+      "note": "麦当劳中国无素食汉堡，素食方案以派+小食+饮品拼配实现"
+    },
+    {
+      "id": "single-mala",
+      "name": "麦辣鸡腿堡",
+      "price": 19.5,
+      "category": "single",
+      "spicy": true,
+      "vegetarian": false,
+      "satiety": 2,
+      "includes": []
+    },
+    {
+      "id": "single-banshao",
+      "name": "板烧鸡腿堡",
+      "price": 21.0,
+      "category": "single",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 2,
+      "includes": []
+    },
+    {
+      "id": "single-bigmac",
+      "name": "巨无霸",
+      "price": 24.0,
+      "category": "single",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 2,
+      "includes": []
+    },
+    {
+      "id": "single-doublecheese",
+      "name": "双层吉士堡",
+      "price": 21.5,
+      "category": "single",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 2,
+      "includes": []
+    },
+    {
+      "id": "single-fish",
+      "name": "麦香鱼堡",
+      "price": 20.0,
+      "category": "single",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 2,
+      "includes": []
+    },
+    {
+      "id": "single-mcchicken",
+      "name": "麦香鸡堡",
+      "price": 15.0,
+      "category": "single",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 2,
+      "includes": []
+    },
+    {
+      "id": "snack-fries-m",
+      "name": "中薯条",
+      "price": 13.0,
+      "category": "snack",
+      "spicy": false,
+      "vegetarian": true,
+      "satiety": 1,
+      "staple": true,
+      "includes": []
+    },
+    {
+      "id": "snack-fries-l",
+      "name": "大薯条",
+      "price": 14.5,
+      "category": "snack",
+      "spicy": false,
+      "vegetarian": true,
+      "satiety": 1,
+      "includes": []
+    },
+    {
+      "id": "snack-nuggets-4",
+      "name": "麦乐鸡 4 块",
+      "price": 11.0,
+      "category": "snack",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 1,
+      "includes": []
+    },
+    {
+      "id": "snack-nuggets-10",
+      "name": "麦乐鸡 10 块",
+      "price": 24.0,
+      "category": "snack",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 1,
+      "includes": []
+    },
+    {
+      "id": "snack-corn",
+      "name": "玉米杯",
+      "price": 8.5,
+      "category": "snack",
+      "spicy": false,
+      "vegetarian": true,
+      "satiety": 1,
+      "includes": []
+    },
+    {
+      "id": "snack-apple",
+      "name": "苹果片",
+      "price": 8.0,
+      "category": "snack",
+      "spicy": false,
+      "vegetarian": true,
+      "satiety": 1,
+      "includes": []
+    },
+    {
+      "id": "drink-cola-m",
+      "name": "中可口可乐",
+      "price": 11.0,
+      "category": "drink",
+      "spicy": false,
+      "vegetarian": true,
+      "satiety": 0,
+      "includes": []
+    },
+    {
+      "id": "drink-cola-l",
+      "name": "大可口可乐",
+      "price": 12.5,
+      "category": "drink",
+      "spicy": false,
+      "vegetarian": true,
+      "satiety": 0,
+      "includes": []
+    },
+    {
+      "id": "drink-juice",
+      "name": "100% 苹果汁（盒装）",
+      "price": 13.0,
+      "category": "drink",
+      "spicy": false,
+      "vegetarian": true,
+      "satiety": 0,
+      "includes": []
+    },
+    {
+      "id": "dessert-cone",
+      "name": "圆筒冰淇淋",
+      "price": 6.0,
+      "category": "dessert",
+      "spicy": false,
+      "vegetarian": true,
+      "satiety": 0,
+      "includes": []
+    },
+    {
+      "id": "dessert-taro-pie",
+      "name": "香芋派",
+      "price": 8.5,
+      "category": "dessert",
+      "spicy": false,
+      "vegetarian": true,
+      "satiety": 1,
+      "includes": []
+    },
+    {
+      "id": "share-nuggets-20",
+      "name": "麦乐鸡 20 块分享盒",
+      "price": 49.5,
+      "category": "share",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 2,
+      "includes": []
+    },
+    {
+      "id": "share-bucket",
+      "name": "小食分享桶",
+      "price": 45.0,
+      "category": "share",
+      "spicy": false,
+      "vegetarian": false,
+      "satiety": 2,
+      "includes": []
+    }
+  ]
+}
